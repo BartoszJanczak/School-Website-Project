@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $(".btn1").click(function(){
+        $(".rozwin").slideUp();
+        $(".btn1").hide();
+        $(".btn2").show();
+      });
+    $(".btn2").click(function(){
+        $(".rozwin").slideDown();
+        $(".btn2").hide();
+        $(".btn1").show();
+      });
+    });
